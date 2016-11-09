@@ -41,7 +41,7 @@ $ pip install pytest-cov
 $ pip install flask
 
 $ pip freeze > requirements.txt
-
+```
 ##Configuracion de jenkins con github
 
 ![alt text](https://github.com/esteban-duran/testproject/blob/master/images/jenkins 1.PNG)
