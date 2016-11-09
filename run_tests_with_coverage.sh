@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#set -e 
+set -e 
 
 . ~/var/lib/jenkins/.virtualenvs/testproject/bin/activate
 
