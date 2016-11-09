@@ -14,11 +14,3 @@ def remove_file(filename):
 def get_all_recent_files():
   file_list = Popen(('ls','files_created','-t'), stdout=PIPE, stderr=PIPE).communicate()[0].split('\n')
   return filter(None,file_list)
-
-def get_content(file):
-    os.chdir('file')
-    file_content = Popen(["cat",filename], stdout=PIPE, stderr=PIPE)
-    file_content.wait()
-    os.chdir('..')
-    return filter(None, file_content)
-
