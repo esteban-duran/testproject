@@ -44,7 +44,9 @@ $ pip freeze > requirements.txt
 
 ##Configuracion de jenkins con github
 
-![alt text](link)
+![alt text](https://github.com/esteban-duran/testproject/blob/master/images/jenkins 1.PNG)
+![alt text](https://github.com/esteban-duran/testproject/blob/master/images/jenkins 2.PNG)
+![alt text](https://github.com/esteban-duran/testproject/blob/master/images/jenkins 3.PNG)
 
 ##Creacion de las pruebas
 Cree un archivo de nombre **test_files.py**
@@ -122,7 +124,7 @@ Ejecutar pruebas de cobertura desde la terminal
 py.test --cov-report term --cov=../testproject
 ```
 
-![alt text](link)
+![alt text](https://github.com/esteban-duran/testproject/blob/master/images/coverage.PNG)
 
 #Dirección al github de la soluciónn
 https://github.com/esteban-duran/testproject
